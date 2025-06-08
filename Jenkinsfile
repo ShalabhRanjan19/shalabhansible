@@ -7,7 +7,7 @@ pipeline {
     stage('Checkout')
     {
       steps{
-        git branch:master ,url: 'https://github.com/ShalabhRanjan19/shalabhansible.git'
+        git branch: 'master' ,url: 'https://github.com/ShalabhRanjan19/shalabhansible.git'
       }
     }
     stage('Run')
