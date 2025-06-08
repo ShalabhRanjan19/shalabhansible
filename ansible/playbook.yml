@@ -5,5 +5,5 @@
   tasks:
     - name: Copy WAR file to Tomcat
       copy:
-        src: "var/snap/jenkins/4874/workspace/shalabh/target/shalabh.war
-        dest: "opt/tomcat/webapps/shalabh.war
+        src: "var/snap/jenkins/4874/workspace/shalabh/target/shalabh.war"
+        dest: "opt/tomcat/webapps/shalabh.war"
